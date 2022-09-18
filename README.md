@@ -2,6 +2,8 @@
 
 ---
 
-## Practical list - as provided in Guidelines_WebDev.pdf
+## Practical list -
+
+as provided in Guidelines_WebDev.pdf
 
 ---
