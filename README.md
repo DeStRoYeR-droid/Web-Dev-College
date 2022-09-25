@@ -7,14 +7,14 @@
 From the list
 HTML Codes
 
-- [ ] Practical 1
-- [ ] Practical 2
-- [ ] Practical 3
+- [x] Practical 1
+- [x] Practical 2
+- [x] Practical 3
 
 HTML+CSS Codes
 
-- [ ] Practical 1
-- [ ] Practical 2
+- [x] Practical 1
+- [x] Practical 2
 
 HTML+CSS+JS Codes
 
