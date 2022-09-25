@@ -4,7 +4,7 @@
 
 ## Practical list -
 
-From the list
+From the list \
 HTML Codes
 
 - [x] Practical 1
