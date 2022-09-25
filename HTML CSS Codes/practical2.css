@@ -3,6 +3,7 @@
 
 div {
   font-family: "Oswald", sans-serif;
+  border: 2px solid black;
 }
 #header,
 #footer {
