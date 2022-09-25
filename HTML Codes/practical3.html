@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Information</title>
+  </head>
+  <body>
+    <h1 align="center">Student Information Form</h1>
+    <hr />
+    <form method="POST">
+      <table width="100%">
+        <tr>
+          <td>
+            <label>Enter first name</label>
+          </td>
+          <td>
+            <label>Enter your last name</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" name="fname" />
+          </td>
+          <td>
+            <input type="text" name="lname" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Enter your roll no</label>
+          </td>
+          <td>
+            <label>Enter your email</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" name="rollno" />
+          </td>
+          <td>
+            <input type="email" name="email" />
+          </td>
+        </tr>
+        <tr>
+          <td>Enter your age</td>
+          <td>Choose your gender</td>
+        </tr>
+        <tr>
+          <td>
+            <input type="number" name="age" />
+          </td>
+          <td>
+            <input type="radio" name="gender" /> <label>Male</label>
+            <input type="radio" name="gender" /> <label>Female</label>
+            <input type="radio" name="gender" /> <label>Other</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>What all societies are you in ? </label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="society" />
+            <label>Arts</label><br />
+            <input type="checkbox" name="society" />
+            <label>Literary</label><br />
+            <input type="checkbox" name="society" />
+            <label>Chemsitry </label><br />
+            <input type="checkbox" name="society" />
+            <label>Computer Science</label><br />
+            <input type="checkbox" name="society" />
+            <label>Mathematics </label><br />
+            <input type="checkbox" name="society" />
+            <label>Physics </label><br />
+            <input type="checkbox" name="society" />
+            <label>Entrepreneurship</label><br />
+            <input type="checkbox" name="society" />
+            <label>Dance</label><br />
+            <input type="checkbox" name="society" />
+            <label>Music</label><br />
+            <input type="checkbox" name="society" />
+            <label>Drama</label><br />
+            <input type="checkbox" name="society" />
+            <label>Photography</label><br />
+            <input type="checkbox" name="society" />
+            <label>Gaming</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Which course do you belong to ?</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <select name="Course">
+              <option value="none">None</option>
+              <option value="B.Sc.(Hons.) Chemsitry">
+                B.Sc.(Hons.) Chemsitry
+              </option>
+              <option value="B.Sc.(Prog.) Chemsitry">
+                B.Sc.(Prog.) Chemsitry
+              </option>
+              <option value="B.Sc.(Hons.) Computer Science">
+                B.Sc.(Hons.) Computer Science
+              </option>
+              <option value="B.Sc.(Prog.) Computer Science">
+                B.Sc.(Prog.) Computer Science
+              </option>
+              <option value="B.Sc.(Hons.) Mathematical Sciences">
+                B.Sc.(Hons.) Mathematical Sciences
+              </option>
+              <option value="B.Sc.(Hons.) Mathematics">
+                B.Sc.(Hons.) Mathematics
+              </option>
+              <option value="B.Sc.(Hons.) Physics">B.Sc.(Hons.) Physics</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Enter your address</label>
+          </td>
+          <td>
+            <label>Attach your photograph</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <textarea name="Address" cols="30" rows="10"></textarea>
+          </td>
+          <td>
+            <input type="file" name="photograph" />
+          </td>
+        </tr>
+      </table>
+      <center>
+        <button type="submit" action="report.php">Submit</button>
+      </center>
+    </form>
+  </body>
+</html>
