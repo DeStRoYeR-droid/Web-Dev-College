@@ -4,7 +4,7 @@
 
 ## Practical list -
 
-From the list \
+From the list - \
 HTML Codes
 
 - [x] Practical 1
@@ -18,7 +18,7 @@ HTML+CSS Codes
 
 HTML+CSS+JS Codes
 
-- [ ] Practical 1
+- [x] Practical 1
 - [ ] Practical 2
 - [ ] Practical 3
 
